@@ -9,7 +9,7 @@
   
   inputs.src-polypbren-master.flake = false;
   inputs.src-polypbren-master.owner = "guibar64";
-  inputs.src-polypbren-master.ref   = "refs/heads/master";
+  inputs.src-polypbren-master.ref   = "master";
   inputs.src-polypbren-master.repo  = "polypbren";
   inputs.src-polypbren-master.type  = "github";
   

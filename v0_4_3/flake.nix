@@ -9,7 +9,7 @@
   
   inputs.src-polypbren-v0_4_3.flake = false;
   inputs.src-polypbren-v0_4_3.owner = "guibar64";
-  inputs.src-polypbren-v0_4_3.ref   = "refs/tags/v0.4.3";
+  inputs.src-polypbren-v0_4_3.ref   = "v0_4_3";
   inputs.src-polypbren-v0_4_3.repo  = "polypbren";
   inputs.src-polypbren-v0_4_3.type  = "github";
   
