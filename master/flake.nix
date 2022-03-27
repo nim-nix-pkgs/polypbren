@@ -11,6 +11,7 @@
   inputs.src-polypbren-master.ref   = "refs/heads/master";
   inputs.src-polypbren-master.owner = "guibar64";
   inputs.src-polypbren-master.repo  = "polypbren";
+  inputs.src-polypbren-master.dir   = "";
   inputs.src-polypbren-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

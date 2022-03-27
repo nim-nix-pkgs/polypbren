@@ -11,6 +11,7 @@
   inputs.src-polypbren-v0_4-paper.ref   = "refs/tags/v0.4-paper";
   inputs.src-polypbren-v0_4-paper.owner = "guibar64";
   inputs.src-polypbren-v0_4-paper.repo  = "polypbren";
+  inputs.src-polypbren-v0_4-paper.dir   = "";
   inputs.src-polypbren-v0_4-paper.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
