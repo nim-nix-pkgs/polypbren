@@ -11,8 +11,15 @@
   inputs.src-polypbren-master.ref   = "refs/heads/master";
   inputs.src-polypbren-master.owner = "guibar64";
   inputs.src-polypbren-master.repo  = "polypbren";
-  inputs.src-polypbren-master.dir   = "";
   inputs.src-polypbren-master.type  = "github";
+  
+  inputs."github.com/yglukhov/threadpools".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/threadpools".ref   = "master";
+  inputs."github.com/yglukhov/threadpools".repo  = "github.com/yglukhov/threadpools";
+  inputs."github.com/yglukhov/threadpools".dir   = "";
+  inputs."github.com/yglukhov/threadpools".type  = "github";
+  inputs."github.com/yglukhov/threadpools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/threadpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
