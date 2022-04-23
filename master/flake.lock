@@ -21,6 +21,33 @@
         "type": "github"
       }
     },
+    "github-yglukhov-threadpools": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-threadpools-master": "src-threadpools-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648447347,
+        "narHash": "sha256-/2Zw7wB+f6wvKf61sQYMZ3yVkmSIdgdUJa4M3wlLWeE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-yglukhov-threadpools",
+        "rev": "4daee795dfce3974a8605d53ca4b62c8f5e20b90",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-yglukhov-threadpools",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
@@ -35,6 +62,7 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "github-yglukhov-threadpools": "github-yglukhov-threadpools",
         "nixpkgs": "nixpkgs",
         "src-polypbren-master": "src-polypbren-master"
       }
@@ -53,6 +81,23 @@
         "owner": "guibar64",
         "ref": "refs/heads/master",
         "repo": "polypbren",
+        "type": "github"
+      }
+    },
+    "src-threadpools-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614105812,
+        "narHash": "sha256-Z0u213HOgeZwwmroWfLjSbXclJe/z5WmmBW8VLDvleM=",
+        "owner": "yglukhov",
+        "repo": "threadpools",
+        "rev": "9129bc71ae91128f3bdab16421acc14f3324793f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yglukhov",
+        "ref": "refs/heads/master",
+        "repo": "threadpools",
         "type": "github"
       }
     }
