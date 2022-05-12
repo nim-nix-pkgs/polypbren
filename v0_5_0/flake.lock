@@ -64,22 +64,22 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "github-yglukhov-threadpools": "github-yglukhov-threadpools",
         "nixpkgs": "nixpkgs",
-        "src-polypbren-master": "src-polypbren-master"
+        "src-polypbren-v0_5_0": "src-polypbren-v0_5_0"
       }
     },
-    "src-polypbren-master": {
+    "src-polypbren-v0_5_0": {
       "flake": false,
       "locked": {
-        "lastModified": 1652358080,
-        "narHash": "sha256-C/hIqsoy3lIDob+5X8LzteAdriyybvQ2wlPGwxUpC9I=",
+        "lastModified": 1574775321,
+        "narHash": "sha256-fznPSXaQuTZ4r4n0VfxE3p03vta2LxixoQ7t96AMtsQ=",
         "owner": "guibar64",
         "repo": "polypbren",
-        "rev": "3989429a05b9f16de2e7e84c7d67fe14457c45b3",
+        "rev": "be079e155d2e6759e449175a790e59aaae7962cf",
         "type": "github"
       },
       "original": {
         "owner": "guibar64",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.5.0",
         "repo": "polypbren",
         "type": "github"
       }

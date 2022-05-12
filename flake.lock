@@ -50,6 +50,35 @@
         "type": "github"
       }
     },
+    "github-yglukhov-threadpools_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "polypbren-v0_5_0",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "polypbren-v0_5_0",
+          "nixpkgs"
+        ],
+        "src-threadpools-master": "src-threadpools-master_2"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651555491,
+        "narHash": "sha256-rH10gJOjgEbEYKgpdL2sXkQBcfW+znCoDLItSzQc1tc=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-yglukhov-threadpools",
+        "rev": "4a574382f958937b7da50623f374d7eedbd910a9",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-yglukhov-threadpools",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -74,11 +103,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651590708,
-        "narHash": "sha256-H1VBCxzKxrxdYpC0NZ/nyIbvBWCwiOaOU+A4zcyrGhs=",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
         "owner": "nim-nix-pkgs",
         "repo": "polypbren",
-        "rev": "a96375e900d4dd96e760f5e8c1361401245fb832",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
         "type": "github"
       },
       "original": {
@@ -101,11 +130,11 @@
       },
       "locked": {
         "dir": "v0_4-paper",
-        "lastModified": 1651590708,
-        "narHash": "sha256-H1VBCxzKxrxdYpC0NZ/nyIbvBWCwiOaOU+A4zcyrGhs=",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
         "owner": "nim-nix-pkgs",
         "repo": "polypbren",
-        "rev": "a96375e900d4dd96e760f5e8c1361401245fb832",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
         "type": "github"
       },
       "original": {
@@ -128,11 +157,11 @@
       },
       "locked": {
         "dir": "v0_4_1",
-        "lastModified": 1651590708,
-        "narHash": "sha256-H1VBCxzKxrxdYpC0NZ/nyIbvBWCwiOaOU+A4zcyrGhs=",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
         "owner": "nim-nix-pkgs",
         "repo": "polypbren",
-        "rev": "a96375e900d4dd96e760f5e8c1361401245fb832",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
         "type": "github"
       },
       "original": {
@@ -155,11 +184,11 @@
       },
       "locked": {
         "dir": "v0_4_2",
-        "lastModified": 1651590708,
-        "narHash": "sha256-H1VBCxzKxrxdYpC0NZ/nyIbvBWCwiOaOU+A4zcyrGhs=",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
         "owner": "nim-nix-pkgs",
         "repo": "polypbren",
-        "rev": "a96375e900d4dd96e760f5e8c1361401245fb832",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
         "type": "github"
       },
       "original": {
@@ -182,15 +211,43 @@
       },
       "locked": {
         "dir": "v0_4_3",
-        "lastModified": 1651590708,
-        "narHash": "sha256-H1VBCxzKxrxdYpC0NZ/nyIbvBWCwiOaOU+A4zcyrGhs=",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
         "owner": "nim-nix-pkgs",
         "repo": "polypbren",
-        "rev": "a96375e900d4dd96e760f5e8c1361401245fb832",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
         "type": "github"
       },
       "original": {
         "dir": "v0_4_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "polypbren",
+        "type": "github"
+      }
+    },
+    "polypbren-v0_5_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "github-yglukhov-threadpools": "github-yglukhov-threadpools_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-polypbren-v0_5_0": "src-polypbren-v0_5_0"
+      },
+      "locked": {
+        "dir": "v0_5_0",
+        "lastModified": 1652367378,
+        "narHash": "sha256-cLC+uiFtMRsatMqk5PMeYfO5hZI9CbG44w2fmNccC3s=",
+        "owner": "nim-nix-pkgs",
+        "repo": "polypbren",
+        "rev": "e2f2923f355774c2a537326ef5c99623a3e330bb",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_5_0",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "polypbren",
@@ -205,7 +262,8 @@
         "polypbren-v0_4-paper": "polypbren-v0_4-paper",
         "polypbren-v0_4_1": "polypbren-v0_4_1",
         "polypbren-v0_4_2": "polypbren-v0_4_2",
-        "polypbren-v0_4_3": "polypbren-v0_4_3"
+        "polypbren-v0_4_3": "polypbren-v0_4_3",
+        "polypbren-v0_5_0": "polypbren-v0_5_0"
       }
     },
     "src-polypbren-master": {
@@ -293,7 +351,41 @@
         "type": "github"
       }
     },
+    "src-polypbren-v0_5_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1574775321,
+        "narHash": "sha256-fznPSXaQuTZ4r4n0VfxE3p03vta2LxixoQ7t96AMtsQ=",
+        "owner": "guibar64",
+        "repo": "polypbren",
+        "rev": "be079e155d2e6759e449175a790e59aaae7962cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "guibar64",
+        "ref": "refs/tags/v0.5.0",
+        "repo": "polypbren",
+        "type": "github"
+      }
+    },
     "src-threadpools-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614105812,
+        "narHash": "sha256-Z0u213HOgeZwwmroWfLjSbXclJe/z5WmmBW8VLDvleM=",
+        "owner": "yglukhov",
+        "repo": "threadpools",
+        "rev": "9129bc71ae91128f3bdab16421acc14f3324793f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yglukhov",
+        "ref": "refs/heads/master",
+        "repo": "threadpools",
+        "type": "github"
+      }
+    },
+    "src-threadpools-master_2": {
       "flake": false,
       "locked": {
         "lastModified": 1614105812,
