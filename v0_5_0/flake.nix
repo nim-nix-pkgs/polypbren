@@ -13,13 +13,13 @@
   inputs.src-polypbren-v0_5_0.repo  = "polypbren";
   inputs.src-polypbren-v0_5_0.type  = "github";
   
-  inputs."github-yglukhov-threadpools".owner = "nim-nix-pkgs";
-  inputs."github-yglukhov-threadpools".ref   = "master";
-  inputs."github-yglukhov-threadpools".repo  = "github-yglukhov-threadpools";
-  inputs."github-yglukhov-threadpools".dir   = "master";
-  inputs."github-yglukhov-threadpools".type  = "github";
-  inputs."github-yglukhov-threadpools".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-yglukhov-threadpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/yglukhov/threadpools".owner = "nim-nix-pkgs";
+  inputs."github.com/yglukhov/threadpools".ref   = "master";
+  inputs."github.com/yglukhov/threadpools".repo  = "github.com/yglukhov/threadpools";
+  inputs."github.com/yglukhov/threadpools".dir   = "";
+  inputs."github.com/yglukhov/threadpools".type  = "github";
+  inputs."github.com/yglukhov/threadpools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yglukhov/threadpools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
