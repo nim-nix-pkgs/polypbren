@@ -1,0 +1,13 @@
+nimcache
+src/polypbren
+bin
+src/config.nims
+special
+docs/html
+
+tests/*
+- tests/*.nims
+- tests/*.nim
+
+.vscode
+/nim.cfg
