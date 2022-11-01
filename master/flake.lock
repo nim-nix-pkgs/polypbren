@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1662254507,
-        "narHash": "sha256-l1TJcSVuKoN9nq3IndD6c4SBS0FgfMO2Wd/z2RDEoak=",
+        "lastModified": 1667322319,
+        "narHash": "sha256-pKep616+g1z77dDG65/1U6Fgk7bWqzQo9JrHJN00DPM=",
         "owner": "nim-nix-pkgs",
         "repo": "github-yglukhov-threadpools",
-        "rev": "5a9ae3e070c47d8eaab005e63e0fbdbc46cb951a",
+        "rev": "eace436914608789a5f82b062a5348410a7bb833",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1667085676,
-        "narHash": "sha256-jPHYYoSdrV3ypWG4oi9SUeI2MU6dLjxM88+9io5Rrx0=",
+        "lastModified": 1667199707,
+        "narHash": "sha256-I2Js3Y7gUyVSEXPULHlBoRek4Lh85vnevdS6mdvDNLI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e6e6bad81b7e11f37d893ef39712ce8918ae2338",
+        "rev": "ced197be72099edcfa68ebed8b87af7b04851f45",
         "type": "github"
       },
       "original": {
