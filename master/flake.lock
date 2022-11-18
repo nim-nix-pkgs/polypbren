@@ -182,11 +182,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667334509,
-        "narHash": "sha256-toknfL8MbvppidCXS/vnlJqqq7ZdN4v6IcdBdIom9Hw=",
+        "lastModified": 1668748788,
+        "narHash": "sha256-L3yauGHwMQ3H4jPwca6N4RtLh8Cmv+h+TIT/51q5hTE=",
         "owner": "nim-nix-pkgs",
         "repo": "github-yglukhov-threadpools",
-        "rev": "939cd95dc51a8b3a8fc179a8963aaba9020d31ec",
+        "rev": "f6e656894d65c34bfc48ac4c3b04d201808df9ec",
         "type": "github"
       },
       "original": {
